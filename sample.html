@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale1.0">
+    <title>My personal website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="flower.jpg" alt="Your image">
+        </div>
+            <script>
+document.querySelectionAll('a[href^="#"]').forEach(anchor=>
+{
+    anchor.addEventListener('click,'
+    function(e){
+        e.preventDefault();
+         
+         const targetId=this.getAttribute('href').substring(1);
+        const targetElement=document.getElementById(targetById);
+
+        if(targetElement){
+            window.scrollTo({
+                top:
+                targetElement.offsetTop,
+                behavior:'smooth'
+            });
+        }
+    });
+});
+            </script>
+        <div class="right">
+            <div class="info">
+            <p><b>NAME:K.SINDHU</b></p>
+            <p><b>REG NO:20213021506234</b></p>
+            <p><b>COLLEGE:ARIGNAR ANNA COLLEGE</b></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
